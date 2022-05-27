@@ -18,12 +18,11 @@ public class HomeController {
 	
 	
 	@RequestMapping("/about")
-	public String about() {
+	public void about() {
 	
 		System.out.println("this is about page");
 
 		
-		return "about";
 	}
 	
 	
